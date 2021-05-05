@@ -2,4 +2,4 @@
 Trabalho POO
 
 Materia Programação orienta a objeto , faculdade UniRuy Wyden, primeiro semestre de 2021.
-Dpcente:  OBERDAN ROCHA PINHEIRO
+Docente:  OBERDAN ROCHA PINHEIRO
