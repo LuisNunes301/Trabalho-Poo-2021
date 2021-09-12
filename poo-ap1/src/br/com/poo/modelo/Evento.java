@@ -15,13 +15,7 @@ public class Evento {
 
 	/**
 	 * Construtor principal para Shows.
-	 * 
-	 * @param nome
-	 * @param artista
-	 * @param localinfos
-	 * @param data
-	 * @param hora
-	 */
+	*/
 	public Evento(String nome, String artista, Local localinfos, Data data, float hora,VenderIngresso valorIngresso) {
 		this.nome = nome;
 		this.artista = artista;
@@ -45,7 +39,7 @@ public class Evento {
 		dados.append(artista);
 		dados.append(" ");
 		dados.append("\nLocal: ");
-		dados.append(localinfos.getEndereço());
+		dados.append(localinfos.getEndereÃ§o());
 		dados.append("\nCapacidade: ");
 		dados.append(localinfos.getCapacidade());
 		dados.append("\nData: ");
@@ -61,8 +55,6 @@ public class Evento {
 
 	/**
 	 * getter/setters
-	 * 
-	 * @return
 	 */
 
 	public String getNome() {
