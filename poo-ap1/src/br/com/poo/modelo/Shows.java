@@ -19,10 +19,10 @@ public class Shows {
 	}
 
 	/*
-	 * Metodo para listar todos os eventos sem condições, apenas para vê se não há
-	 * erro na impressão.
+	 * Metodo para listar todos os eventos sem condiÃ§Ãµes, apenas para vÃª se nÃ£o hÃ¡
+	 * erro na impressÃ£o.
 	 */
-	public void listarEventostotais() {
+	public void listarEventosTotais() {
 		System.out.println("   ********* TODOS OS EVENTOS ******** \n\n");
 		for (Evento evento2 : evento) {
 			System.out.println(evento2);
@@ -31,16 +31,16 @@ public class Shows {
 
 	/*
 	 * Consultar os eventos, apenas aqueles que tem capacidade=ingresso, > 0, caso
-	 * == 0 print que não há.
+	 * == 0 print que nÃ£o hÃ¡.
 	 */
-	public void listarEventosdisponiveis() {
+	public void listarEventosDisponiveis() {
 		System.out.println("******   Eventos disponiveis: ****** \n\n");
 		for (Evento evento2 : evento) {
 			if (evento2.getLocalinfos().getCapacidade() == 0) {
 				System.out.println("\nEvento esgotado:" + evento2.getNome() + "\n");
 			} else if (evento2.getLocalinfos().getCapacidade() > 0) {
 				System.out.println(evento2.getNome() + "\nCapacidade: " + evento2.getLocalinfos().getCapacidade()
-						+ "\nLocal: " + evento2.getLocalinfos().getEndereço() + "\n--------------------------");
+						+ "\nLocal: " + evento2.getLocalinfos().getEndereÃ§o() + "\n--------------------------");
 			}
 		}
 	}
