@@ -1,26 +1,24 @@
 package br.com.poo.modelo;
 
 public class Local {
-	private String endereço;
+	private String endereÃ§o;
 	private int capacidade;
 
-	public Local(String endereço, int capacidade) {
+	public Local(String endereÃ§o, int capacidade) {
 		this.capacidade = capacidade;
-		this.endereço = endereço;
+		this.endereÃ§o = endereÃ§o;
 	}
 
 	/**
 	 * getter/setters
-	 * 
-	 * @return
 	 */
 
-	public String getEndereço() {
-		return endereço;
+	public String getEndereÃ§o() {
+		return endereÃ§o;
 	}
 
-	public void setEndereço(String endereço) {
-		this.endereço = endereço;
+	public void setEndereÃ§o(String endereÃ§o) {
+		this.endereÃ§o = endereÃ§o;
 	}
 
 	public double getCapacidade() {
